@@ -51,8 +51,7 @@ It creates a server process that waits for an incoming connection. Once a connec
 established, authenticate is called to authenticate the user. If the user is successfully
 authenticate,d your program should print out “Client logged in.</li>
       <li> lookupPassword, which simply returns the password of the user stored on the server.</li>
-      <li> lookupPassword, which simply returns the password of the user stored on the server.
-o authenticate is the function which you need to implement to authenticate the user trying to
+      <li> authenticate is the function which you need to implement to authenticate the user trying to
 log in. Consult DataInputStream API on how to read data from the ‘in’ stream. The
 function should return either true or false depending on whether the user is authenticated.</li>
     </ul>
