@@ -42,4 +42,19 @@ the variable ‘out’. Consult DataOutputStream API on how to write different d
 ‘out'</li>
       </ul>
   </li>
+  <li>
+    <i>ProtectedServer</i>, which implements the server. There are three functions: main, lookupPassword,
+and authenticate
+    <ul>
+      <li> main is the starting point of the server program and has already been implemented for you.
+It creates a server process that waits for an incoming connection. Once a connection is
+established, authenticate is called to authenticate the user. If the user is successfully
+authenticate,d your program should print out “Client logged in.</li>
+      <li> lookupPassword, which simply returns the password of the user stored on the server.</li>
+      <li> lookupPassword, which simply returns the password of the user stored on the server.
+o authenticate is the function which you need to implement to authenticate the user trying to
+log in. Consult DataInputStream API on how to read data from the ‘in’ stream. The
+function should return either true or false depending on whether the user is authenticated.</li>
+    </ul>
+  </li>
 </ul>
