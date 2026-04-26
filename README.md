@@ -4,7 +4,7 @@
 The program demonstrates the use of hashing using MD5 and SHA (SHA-1 and SHA-256) schemes
 and the MessageDigest class.
 
-### Example Output
+### messageDigest Output
 <img width="836" height="202" alt="image" src="https://github.com/user-attachments/assets/209f91e4-ec83-4ae8-b3a9-94781784b6d4" />
 
 
@@ -38,8 +38,7 @@ obtain the name of your machine)</li>
         <li>sendAuthentication is the function that you need to implement. It takes in user name,
 password, and an output stream as the function inputs. In this function, you should
 implement double-strength password authentication and send to the server by writing to
-the variable ‘out’. Consult DataOutputStream API on how to write different data types to 
-‘out'</li>
+the variable ‘out’. </li>
       </ul>
   </li>
   <li>
@@ -52,8 +51,10 @@ established, authenticate is called to authenticate the user. If the user is suc
 authenticate,d your program should print out “Client logged in.</li>
       <li> lookupPassword, which simply returns the password of the user stored on the server.</li>
       <li> authenticate is the function which you need to implement to authenticate the user trying to
-log in. Consult DataInputStream API on how to read data from the ‘in’ stream. The
-function should return either true or false depending on whether the user is authenticated.</li>
+log in. </li>
     </ul>
   </li>
 </ul>
+
+### Authentication Code Output
+<img width="600" height="108" alt="image" src="https://github.com/user-attachments/assets/3f94e7c7-9e00-4a6e-b4ac-b2cd40daa4c9" />
