@@ -144,7 +144,13 @@ The Client Key was generated using:
 <img width="1023" height="1394" alt="image" src="https://github.com/user-attachments/assets/2a162c00-a53f-4963-a170-8c31907bbe10" />
 
 
-
+### References
+<ul>
+  <li>https://www.ssl.com/faqs/what-is-an-x-509-certificate/</li>
+  <li>https://learn.microsoft.com/en-us/azure/iot-hub/reference-x509-certificates</li>
+  <li>https://www.geeksforgeeks.org/java/java-program-to-implement-the-rsa-algorithm/</li>
+  <li>https://medium.com/@meshara/rsa-encryption-with-java-example-c28d042817cb</li>
+</ul>
 
 
 
