@@ -74,6 +74,8 @@ The CipherClient includes an if-else statement to avoid overwriting existing key
 #### <i>CipherClient Output</i>
 <img width="499" height="49" alt="image" src="https://github.com/user-attachments/assets/0de7b4de-5af0-432c-90aa-f4a715628a3b" />
 
+A DES key file is generated
+
 #### <i>CipherServer Output</i>
 <img width="513" height="79" alt="image" src="https://github.com/user-attachments/assets/99dc2e1c-ed61-4fe4-920a-3203ad3ea201" />
 
