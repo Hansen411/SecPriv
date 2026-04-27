@@ -37,11 +37,13 @@ public class RSABob {
 
 
 
-        if (check.equals(message))
+        if (check.equals(message)){
             System.out.println("Signature Accepted");
-        else
+        } else {
             System.out.println("Signature Failed");
+        } 
         System.out.println("Message: " + new String(message.toByteArray()));
+
         
         socket.close();
         server.close();
