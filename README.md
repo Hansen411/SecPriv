@@ -132,6 +132,8 @@ This certificate can be self-signed and it should have your name. You can use ke
 keytool is installed as part of the standard Java SDK/Runtime library, and is located in its bin subfolder.
 Refer to the keytool’s documentation for further instructions.
 
+The Client Key was generated using:
+ "C:\Program Files\Java\jdk-26\bin\keytool.exe" -genkeypair -alias clientkey -keyalg RSA -keysize 2048 -keystore clientkeystore.jks -validity 365
 
 #### CertificateClient
 <img width="566" height="98" alt="image" src="https://github.com/user-attachments/assets/5c7e63a0-1dcf-4ba9-a789-47f1c143e821" />
