@@ -61,7 +61,35 @@ log in. </li>
 
 
 ### B) Digital Signature
-[descryption and output]
+This part of the assignment is based on the ElGamal Signature Scheme.
+
+There are two classes in this assignment, <i>ElGamalAlice</i> and <i>ElGamalBob</i>, corresponding to the sender (Alice) and the receiver (Bob). The main functions for both the classes have been written. The assignment is to write various functions that implement ElGamal key generation and signature creation algorithms (for Alice), and signature verification algorithm (for Bob). 
+#### <i>ElGamalAlice</i>
+For Alice, 4 functions are written
+<ol>
+  <li>computeY</li>
+    <ul>
+      <li>This computes the public key.</li>
+    </ul>
+  <li>computeK</li>
+    <ul>
+      <li>Computes a random number that works with the inverse of the mod</li>
+    </ul>
+  <li>computeA</li>
+    <ul>
+      <li>Computes the first part of the signature</li>
+    </ul>
+  <li>computeB</li>
+    <ul>
+      <li>Computes the second part of the signature</li>
+    </ul>
+</ol>
+
+Alice does not print an output in the terminal, but computes the signature and sends it to Bob.
+#### <i>ElGamalBob</i>
+Bob verifies the signature sent by Alice by comparison and prints out the message
+
+<img width="593" height="103" alt="image" src="https://github.com/user-attachments/assets/c2fbc8b9-d0b1-47ef-99f1-2eeecb879dbd" />
 
 ### C) Encryption
 The client program <i>CipherClient</i> will (1) generate a DES key and store the key in a file, (2) encrypt the given String object using that key, and sends the encrypted object over the socket to the server. The server program,
