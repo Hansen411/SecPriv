@@ -116,7 +116,27 @@ Alice receives Bob's public key, encrypts a message ("Hello World") using his ke
 #### RSABob
 Bob receives Alice's message, decrypts it with the use of her public key, then prints the message in the terminal if the signature is accepted.
 
-<img width="550" height="83" alt="image" src="https://github.com/user-attachments/assets/d197bb56-9037-440a-8421-f98cee7e68ab" />
-
+<img width="688" height="125" alt="image" src="https://github.com/user-attachments/assets/7f75b6d3-d1d5-4bb5-a58d-46e3fcc0b3ef" />
 
 ### E) X.509 certificates
+This part of the assignment will demonstrate the use of X.509 certificates to exchange
+messages that achieve confidentiality. The client loads the server’s certificate and proceeds to verify its
+authenticity and validity. This includes checking the expiration date and verifying if the certificate was
+signed using the private key that corresponds to the specified public key. 
+
+Also, the content of the certificate received will be printed. If the certificate received is valid, proceed to exchange confidential messages between the two parties. 
+You can reuse the code previously provided for part D, but you need to ensure that you use the keys i) embedded in the certificate and ii) its corresponding private key.
+
+You will need to create an X.509 certificate for the Server, using RSA as the key generation algorithm.
+This certificate can be self-signed and it should have your name. You can use keytool for this purpose.
+keytool is installed as part of the standard Java SDK/Runtime library, and is located in its bin subfolder.
+Refer to the keytool’s documentation for further instructions.
+
+
+
+
+
+
+
+
+
