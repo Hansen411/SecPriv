@@ -144,7 +144,8 @@ The Client Key was generated using:
 <img width="1023" height="1394" alt="image" src="https://github.com/user-attachments/assets/2a162c00-a53f-4963-a170-8c31907bbe10" />
 
 
-### References
+## References
+Some sources used to assist 
 <ul>
   <li>https://www.ssl.com/faqs/what-is-an-x-509-certificate/</li>
   <li>https://learn.microsoft.com/en-us/azure/iot-hub/reference-x509-certificates</li>
